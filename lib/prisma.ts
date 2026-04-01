@@ -1,9 +1,10 @@
 import { Pool } from "pg";
 import { PrismaPg } from "@prisma/adapter-pg";
+import type { PrismaClient as PrismaClientType } from "@prisma/client";
 import { PrismaClient } from "@prisma/client";
 
 declare global {
-  var prisma: PrismaClient | null | undefined;
+  var prisma: PrismaClientType | null | undefined;
   var prismaPool: Pool | undefined;
 }
 

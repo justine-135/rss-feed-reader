@@ -33,7 +33,7 @@ export default async function Home() {
 
   return (
     <main className="landing-shell min-h-screen">
-      <div className="mx-auto flex min-h-screen max-w-[var(--page-max-width)] flex-col px-5 py-5 sm:px-8 lg:px-10">
+      <div className="mx-auto flex min-h-screen max-w-(--page-max-width) flex-col px-5 py-5 sm:px-8 lg:px-10">
         <header className="landing-header app-border flex items-center justify-between rounded-[28px] border px-5 py-4 backdrop-blur md:px-6">
           <FeedReaderLogo href={homeHref} />
           <nav className="hidden items-center gap-3 md:flex">
@@ -89,7 +89,7 @@ export default async function Home() {
               {highlights.map(({ title, description, icon: Icon }) => (
                 <article
                   key={title}
-                  className="landing-card app-border rounded-[24px] border p-5"
+                  className="landing-card app-border rounded-3xl border p-5"
                 >
                   <div className="app-bg-accent-subtle app-text-accent mb-4 flex h-11 w-11 items-center justify-center rounded-2xl">
                     <Icon className="h-5 w-5" />
@@ -130,7 +130,7 @@ export default async function Home() {
                 </div>
               </div>
 
-              <div className="grid min-h-[30rem] grid-cols-[15rem_minmax(0,1fr)]">
+              <div className="grid min-h-120 grid-cols-[15rem_minmax(0,1fr)]">
                 <aside className="app-bg-secondary app-border border-r px-4 py-5">
                   <div className="space-y-2">
                     <div className="app-bg-accent-subtle app-text-accent rounded-2xl px-3 py-3 text-sm font-semibold">
@@ -141,36 +141,43 @@ export default async function Home() {
                     </div>
                   </div>
                   <div className="mt-8 space-y-3 text-sm">
-                    {["Frontend", "Design", "Backend & DevOps", "General Tech", "AI & ML"].map(
-                      (item) => (
-                        <div
-                          key={item}
-                          className="app-text-secondary flex items-center justify-between"
-                        >
-                          <span>{item}</span>
-                          <span className="app-text-tertiary">
-                            {Math.floor(item.length * 1.7)}
-                          </span>
-                        </div>
-                      ),
-                    )}
+                    {[
+                      "Frontend",
+                      "Design",
+                      "Backend & DevOps",
+                      "General Tech",
+                      "AI & ML",
+                    ].map((item) => (
+                      <div
+                        key={item}
+                        className="app-text-secondary flex items-center justify-between"
+                      >
+                        <span>{item}</span>
+                        <span className="app-text-tertiary">
+                          {Math.floor(item.length * 1.7)}
+                        </span>
+                      </div>
+                    ))}
                   </div>
                 </aside>
 
                 <div className="bg-white">
                   {[
                     {
-                      title: "Practical Guide To Designing For Colorblind Users",
+                      title:
+                        "Practical Guide To Designing For Colorblind Users",
                       source: "Smashing Magazine",
                       category: "Design",
                     },
                     {
-                      title: "How We Reduced P99 Latency by 60% with Edge-First Caching",
+                      title:
+                        "How We Reduced P99 Latency by 60% with Edge-First Caching",
                       source: "Cloudflare Blog",
                       category: "Backend & DevOps",
                     },
                     {
-                      title: "Building Effective RAG Systems: What Actually Works in Production",
+                      title:
+                        "Building Effective RAG Systems: What Actually Works in Production",
                       source: "Simon Willison",
                       category: "AI & ML",
                     },
