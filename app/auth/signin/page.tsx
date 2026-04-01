@@ -5,6 +5,8 @@ import { FeedReaderLogo } from "@/components/feed-reader-logo";
 import { GithubSignInButton } from "@/components/github-sign-in-button";
 import { authConfigReady, getSafeServerSession } from "@/lib/auth";
 
+export const dynamic = "force-dynamic";
+
 export default async function SignInPage(props: PageProps<"/auth/signin">) {
   const searchParams = await props.searchParams;
   const callbackUrl =

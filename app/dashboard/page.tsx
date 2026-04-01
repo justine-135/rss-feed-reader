@@ -3,6 +3,8 @@ import { DashboardApp } from "@/components/dashboard-app";
 import { authConfigReady, getSafeServerSession } from "@/lib/auth";
 import { getDemoData } from "@/lib/demo-data";
 
+export const dynamic = "force-dynamic";
+
 export default async function DashboardPage() {
   if (!authConfigReady) {
     redirect("/auth/signin");

@@ -4,6 +4,8 @@ import { ArrowRight, Layers3, Newspaper, Sparkles } from "lucide-react";
 import { FeedReaderLogo } from "@/components/feed-reader-logo";
 import { GithubSignInButton } from "@/components/github-sign-in-button";
 
+export const dynamic = "force-dynamic";
+
 const highlights = [
   {
     title: "A calm reading dashboard",
