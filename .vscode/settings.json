@@ -1,0 +1,9 @@
+{
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/.hg/**",
+    "**/.svn/**",
+    "**/node_modules/**"
+  ],
+  "tailwindCSS.experimental.configFile": "app/globals.css"
+}

@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "id": "smashing-colorblind",
+      "feedTitle": "Smashing Magazine",
+      "categoryName": "Design",
+      "title": "Practical Guide To Designing For Colorblind Users",
+      "excerpt": "Color blindness affects roughy 8% of men worldwide. Here is how to design interfaces that work for everyone without sacrificing visual richness.",
+      "url": "https://www.smashingmagazine.com/",
+      "publishedAt": "2026-04-01T10:00:00.000Z",
+      "newSinceVisit": true
+    },
+    {
+      "id": "cloudflare-edge-cache",
+      "feedTitle": "Cloudflare Blog",
+      "categoryName": "Backend & DevOps",
+      "title": "How We Reduced P99 Latency by 60% with Edge-First Caching",
+      "excerpt": "A quarter-long rethink of caching at the edge led to dramatic tail-latency wins and lessons any distributed team can borrow.",
+      "url": "https://blog.cloudflare.com/",
+      "publishedAt": "2026-04-01T09:00:00.000Z",
+      "newSinceVisit": true
+    },
+    {
+      "id": "simon-rag-systems",
+      "feedTitle": "Simon Willison's Weblog",
+      "categoryName": "AI & ML",
+      "title": "Building Effective RAG Systems: What Actually Works in Production",
+      "excerpt": "Chunking strategy, metadata filters, and careful evaluation matter more than novelty when retrieval systems meet real users.",
+      "url": "https://simonwillison.net/",
+      "publishedAt": "2026-04-01T08:00:00.000Z",
+      "newSinceVisit": true
+    },
+    {
+      "id": "josh-container-queries",
+      "feedTitle": "Josh W. Comeau",
+      "categoryName": "Frontend",
+      "title": "The Surprising Truth About CSS Container Queries",
+      "excerpt": "Container queries unlock reusable layouts with a cleaner mental model than classic viewport breakpoints.",
+      "url": "https://www.joshwcomeau.com/",
+      "publishedAt": "2026-04-01T07:00:00.000Z",
+      "newSinceVisit": true
+    },
+    {
+      "id": "figma-variables",
+      "feedTitle": "Figma Blog",
+      "categoryName": "Design",
+      "title": "Introducing Variables 2.0: Design Tokens Meet Real Logic",
+      "excerpt": "Conditional logic, expressions, and cross-file references make design systems feel closer to actual product code.",
+      "url": "https://www.figma.com/blog/",
+      "publishedAt": "2026-04-01T06:00:00.000Z",
+      "newSinceVisit": true
+    },
+    {
+      "id": "vercel-rollbacks",
+      "feedTitle": "Vercel Blog",
+      "categoryName": "Backend & DevOps",
+      "title": "Instant Rollbacks and a Safer Path to Friday Deploys",
+      "excerpt": "Operational confidence goes up when preview workflows and production escape hatches feel obvious to the team.",
+      "url": "https://vercel.com/blog",
+      "publishedAt": "2026-03-31T17:00:00.000Z",
+      "newSinceVisit": false
+    },
+    {
+      "id": "kent-feedback-loops",
+      "feedTitle": "Kent C. Dodds",
+      "categoryName": "Frontend",
+      "title": "Designing Better Feedback Loops for UI Tests",
+      "excerpt": "Faster, clearer failures teach teams more than brittle happy-path coverage ever will.",
+      "url": "https://kentcdodds.com/",
+      "publishedAt": "2026-03-31T14:30:00.000Z",
+      "newSinceVisit": false
+    },
+    {
+      "id": "pragmatic-platform-bets",
+      "feedTitle": "The Pragmatic Engineer",
+      "categoryName": "General Tech",
+      "title": "Why Platform Bets Matter More Than Framework Bets",
+      "excerpt": "Teams compound leverage when they invest in shared delivery systems, not just the newest tool on the surface.",
+      "url": "https://blog.pragmaticengineer.com/",
+      "publishedAt": "2026-03-31T12:00:00.000Z",
+      "newSinceVisit": false
+    },
+    {
+      "id": "webdev-view-transition",
+      "feedTitle": "web.dev",
+      "categoryName": "Frontend",
+      "title": "View Transitions That Feel Native Without Fighting the Browser",
+      "excerpt": "The new primitives make shared-element polish more approachable, but only when motion serves orientation.",
+      "url": "https://web.dev/",
+      "publishedAt": "2026-03-31T09:45:00.000Z",
+      "newSinceVisit": false
+    },
+    {
+      "id": "github-inner-loop",
+      "feedTitle": "The GitHub Blog",
+      "categoryName": "Backend & DevOps",
+      "title": "Shortening the Developer Inner Loop with Better Merge Signals",
+      "excerpt": "Review latency, CI clarity, and ownership boundaries turned out to be the biggest levers for velocity.",
+      "url": "https://github.blog/",
+      "publishedAt": "2026-03-31T08:15:00.000Z",
+      "newSinceVisit": false
+    },
+    {
+      "id": "hn-browser-baselines",
+      "feedTitle": "Hacker News Best",
+      "categoryName": "General Tech",
+      "title": "Browser Baselines Are Changing How Teams Talk About Support",
+      "excerpt": "Compatibility conversations get simpler when support is framed around capabilities instead of folklore.",
+      "url": "https://news.ycombinator.com/",
+      "publishedAt": "2026-03-30T20:30:00.000Z",
+      "newSinceVisit": false
+    },
+    {
+      "id": "nng-habit-forming-dashboards",
+      "feedTitle": "Nielsen Norman Group",
+      "categoryName": "Design",
+      "title": "Designing Dashboards That Invite Return Visits",
+      "excerpt": "People return to dashboards when the interface makes priority, change, and action legible in seconds.",
+      "url": "https://www.nngroup.com/",
+      "publishedAt": "2026-03-30T17:00:00.000Z",
+      "newSinceVisit": false
+    },
+    {
+      "id": "hf-small-models",
+      "feedTitle": "Hugging Face Blog",
+      "categoryName": "AI & ML",
+      "title": "Why Smaller Models Keep Winning in Real Product Work",
+      "excerpt": "Latency, cost, and iteration speed often matter more than leaderboard prestige when shipping user-facing AI.",
+      "url": "https://huggingface.co/blog",
+      "publishedAt": "2026-03-30T13:00:00.000Z",
+      "newSinceVisit": false
+    }
+  ]
+}
